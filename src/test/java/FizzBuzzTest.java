@@ -41,7 +41,14 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void multiplesOfThreeAndFive() {
 
+        String inputTest = "3";
+        InputStream in = new ByteArrayInputStream(inputTest.getBytes());
+        System.setIn(in);
+        assertEquals("Buzz", fizzBuzz.convert(15));
 
+    }
 
 }
