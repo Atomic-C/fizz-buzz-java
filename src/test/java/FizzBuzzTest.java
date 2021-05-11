@@ -10,7 +10,7 @@ public class FizzBuzzTest {
     FizzBuzz fizzBuzz = new FizzBuzz();
 
     @Test
-    public void convert() {
+    public void convertLeavesNormalNumbersAlone() {
 
         String inputTest = "3";
         InputStream in = new ByteArrayInputStream(inputTest.getBytes());
@@ -18,4 +18,18 @@ public class FizzBuzzTest {
         assertEquals("3", fizzBuzz.convert(3));
 
     }
+
+    @Test
+    public void multiplesOfThree() {
+
+        String inputTest = "3";
+        InputStream in = new ByteArrayInputStream(inputTest.getBytes());
+        System.setIn(in);
+        assertEquals("Fizz", fizzBuzz.convert(3));
+
+    }
+
+
+
+
 }
