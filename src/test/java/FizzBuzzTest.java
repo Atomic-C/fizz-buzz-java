@@ -47,7 +47,7 @@ public class FizzBuzzTest {
         String inputTest = "3";
         InputStream in = new ByteArrayInputStream(inputTest.getBytes());
         System.setIn(in);
-        assertEquals("Buzz", fizzBuzz.convert(15));
+        assertEquals("FizzBuzz", fizzBuzz.convert(15));
 
     }
 
