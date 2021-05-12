@@ -50,12 +50,9 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", fizzBuzz.convert(15));
 
     }
-<<<<<<< HEAD
 }
 
 
 // https://www.youtube.com/watch?v=b5W8bR4y-g4
-=======
 
-}
->>>>>>> f7b4455ca4e86daa1c40ac636c5ff2a5aa2621e8
+
