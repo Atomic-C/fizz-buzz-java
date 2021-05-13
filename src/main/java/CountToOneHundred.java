@@ -1,16 +1,20 @@
-public class CountToOneHundred {
-    private int number;
+import java.util.ArrayList;
+import java.util.List;
 
-    public int outputTheHundredFizzBuzzes() {
+public class CountToOneHundred {
+
+    List<Integer> myList = new ArrayList<Integer>();
+
+    public List<Integer> outputTheHundredFizzBuzzes() {
 
 
         for (int i = 1; i <= 100 ; i++) {
 
-            number = i;
-            System.out.println(i);
+            myList.add(i);
+            //System.out.println(i);
 
         }
-        return number;
+        return myList;
     }
 
 }
