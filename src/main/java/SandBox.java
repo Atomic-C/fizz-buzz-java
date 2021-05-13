@@ -2,6 +2,9 @@ public class SandBox {
 
     public static void main(String[] args) {
 
+        CountToOneHundred countToOneHundred = new CountToOneHundred();
+        countToOneHundred.outputTheHundredFizzBuzzes();
+
     }
 
 }
