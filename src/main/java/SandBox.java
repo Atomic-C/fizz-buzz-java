@@ -6,6 +6,8 @@ public class SandBox {
         CountToOneHundred countToOneHundred = new CountToOneHundred();
 
         System.out.println(countToOneHundred.outputTheHundredFizzBuzzes());
+
+        fizzBuzz.convert(countToOneHundred.outputTheHundredFizzBuzzes());
     }
 
 }

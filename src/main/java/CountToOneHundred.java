@@ -3,14 +3,14 @@ import java.util.List;
 
 public class CountToOneHundred {
 
-    List<Integer> myList = new ArrayList<Integer>();
+    private List<Integer> myList = new ArrayList<Integer>();
 
     public List<Integer> outputTheHundredFizzBuzzes() {
 
 
         for (int i = 1; i <= 100 ; i++) {
 
-            myList.add(i);
+              myList.add(i);
             //System.out.println(i);
 
         }
