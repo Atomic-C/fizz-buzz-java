@@ -7,7 +7,7 @@ public class SandBox {
 
         System.out.println(countToOneHundred.outputTheHundredFizzBuzzes());
 
-        fizzBuzz.convert(countToOneHundred.outputTheHundredFizzBuzzes());
+
     }
 
 }

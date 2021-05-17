@@ -11,9 +11,7 @@ public class FizzBuzzTest {
 
     FizzBuzz fizzBuzz = new FizzBuzz();
 
-    private List<Integer> myList = new ArrayList<Integer>();
 
-    private List<Integer> myListForTest = new ArrayList(100);
 
     // sources I'm working with ATM: https://docs.oracle.com/javase/7/docs/api/java/util/List.html
     // ALSO: https://www.baeldung.com/java-list-capacity-array-size
@@ -22,15 +20,13 @@ public class FizzBuzzTest {
 
     @Test
     public void convertLeavesNormalNumbersAlone() {
-        myList.add(1);
-        myList.add(2);
 
         String inputTest = "3";
         InputStream in = new ByteArrayInputStream(inputTest.getBytes());
         System.setIn(in);
-        assertEquals("1", fizzBuzz.convert(myList.subList(0,1)));
-        assertEquals("2", fizzBuzz.convert(2));
-        assertEquals("4", fizzBuzz.convert(4));
+        assertEquals(1, fizzBuzz.convert(1));
+        assertEquals(2, fizzBuzz.convert(2));
+        assertEquals(4, fizzBuzz.convert(4));
 
     }
 
