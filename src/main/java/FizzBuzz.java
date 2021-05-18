@@ -5,7 +5,6 @@ public class FizzBuzz {
 
         public String convert(int convertToFizzBuzz) {
 
-
             if(((convertToFizzBuzz % 3) == 0) && ((convertToFizzBuzz % 5) == 0)) {
                 return "FizzBuzz";
             }
@@ -15,8 +14,10 @@ public class FizzBuzz {
             if((convertToFizzBuzz % 5) == 0 ) {
                 return "Buzz";
             }
+            else {
 
-            return String.valueOf(convertToFizzBuzz);
+            return Integer.toString(convertToFizzBuzz);
+            }
         }
 
 }

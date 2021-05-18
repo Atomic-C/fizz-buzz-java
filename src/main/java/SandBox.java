@@ -2,10 +2,7 @@ public class SandBox {
 
     public static void main(String[] args) {
 
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        CountToOneHundred countToOneHundred = new CountToOneHundred();
 
-        System.out.println(countToOneHundred.outputTheHundredFizzBuzzes());
 
 
     }
