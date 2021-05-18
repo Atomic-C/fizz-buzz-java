@@ -5,6 +5,11 @@ public class FizzBuzz {
 
         public String convert(int convertToFizzBuzz) {
 
+            for (int i = 1; i <= 100 ; i++) {
+
+                
+            }
+
             if(((convertToFizzBuzz % 3) == 0) && ((convertToFizzBuzz % 5) == 0)) {
                 return "FizzBuzz";
             }
@@ -19,5 +24,6 @@ public class FizzBuzz {
             return Integer.toString(convertToFizzBuzz);
             }
         }
-
+// https://www.educative.io/edpresso/what-is-the-fizzbuzz-problem-in-java
 }
+

@@ -11,12 +11,9 @@ public class FizzBuzzTest {
 
     FizzBuzz fizzBuzz = new FizzBuzz();
 
-
-
-    // sources I'm working with ATM: https://docs.oracle.com/javase/7/docs/api/java/util/List.html
-    // ALSO: https://www.baeldung.com/java-list-capacity-array-size
-    //TODO: FIGURE OUT HOW TO ADD TO LIST, ACCESS AND PASS TO CONVERTER. Currently asking for: List type
-
+    //TODO:
+    // https://stackoverflow.com/questions/31635698/junit-testing-for-user-input-using-scanner
+    // https://www.youtube.com/watch?v=b5W8bR4y-g4
 
     @Test
     public void convertLeavesNormalNumbersAlone() {
@@ -62,6 +59,6 @@ public class FizzBuzzTest {
 }
 
 
-// https://www.youtube.com/watch?v=b5W8bR4y-g4
+
 
 
