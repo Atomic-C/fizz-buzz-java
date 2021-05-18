@@ -24,9 +24,9 @@ public class FizzBuzzTest {
         String inputTest = "3";
         InputStream in = new ByteArrayInputStream(inputTest.getBytes());
         System.setIn(in);
-        assertEquals(1, fizzBuzz.convert(1));
-        assertEquals(2, fizzBuzz.convert(2));
-        assertEquals(4, fizzBuzz.convert(4));
+        assertEquals("1", fizzBuzz.convert(1));
+        assertEquals("2", fizzBuzz.convert(2));
+        assertEquals("4", fizzBuzz.convert(4));
 
     }
 
