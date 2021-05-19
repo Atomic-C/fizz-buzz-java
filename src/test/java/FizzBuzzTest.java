@@ -9,7 +9,6 @@ public class FizzBuzzTest {
 
     FizzBuzz fizzBuzz = new FizzBuzz();
 
-    //TODO:
     // https://stackoverflow.com/questions/31635698/junit-testing-for-user-input-using-scanner
     // https://www.youtube.com/watch?v=b5W8bR4y-g4
 
