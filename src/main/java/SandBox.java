@@ -2,7 +2,8 @@ public class SandBox {
 
     public static void main(String[] args) {
 
-
+    FizzBuzzTo100 fizzBuzzTo100 = new FizzBuzzTo100();
+    fizzBuzzTo100.convert();
 
 
     }
