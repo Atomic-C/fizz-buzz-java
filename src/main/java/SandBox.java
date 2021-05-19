@@ -5,7 +5,6 @@ public class SandBox {
     FizzBuzzTo100 fizzBuzzTo100 = new FizzBuzzTo100();
     fizzBuzzTo100.convert();
 
-
     }
 
 }
